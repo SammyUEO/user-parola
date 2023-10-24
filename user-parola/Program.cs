@@ -21,6 +21,7 @@ class Program
             if (username == usernameCorect && parola == parolaCorecta)
             {
                 Console.WriteLine("Bine ai venit, " + usernameCorect);
+                autentificat=true;
 
             }
             else
